@@ -5,7 +5,7 @@ import routes from "./routes/soccerRoutes";
 import cors from 'cors'
 
 const app = express();
-const PORT = 4000;
+const PORT = 5000;
 
 // mongo connection
 mongoose.Promise = global.Promise;
